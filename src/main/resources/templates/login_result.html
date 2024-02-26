@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html xmlns: th="http://wwww.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>My Login Result</title>
+</head>
+<body>
+<div>
+<label>User Name: </label>
+<p  th:text="${logincredentials.name}"></p>
+</div>
+<div>
+    <label>Password: </label>
+<p th:text="${logincredentials.password}"></p>
+</div>
+</body>
+</html>
